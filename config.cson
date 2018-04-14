@@ -1,0 +1,76 @@
+"*":
+  "Remote-FTP":
+    autoUploadOnSave: "only when connected"
+    enableTransferNotifications: true
+  "atom-beautify":
+    css:
+      beautify_on_save: false
+      end_with_newline: true
+      indent_size: 2
+      preserve_newlines: true
+    erb:
+      disabled: true
+      indent_size: 2
+    general:
+      analytics: false
+    html:
+      beautify_on_save: true
+      disabled: true
+    js:
+      indent_size: 2
+    json:
+      indent_size: 2
+      keep_array_indentation: true
+  core:
+    closeDeletedFileTabs: true
+    closeEmptyWindows: false
+    customFileTypes:
+      "text.html.erb": [
+        "html.inky"
+      ]
+    excludeVcsIgnoredPaths: false
+    ignoredNames: [
+      ".git"
+      ".hg"
+      ".svn"
+      ".DS_Store"
+      "._*"
+      "Thumbs.db"
+      "desktop.ini"
+      "node_modules"
+      "*.pdf"
+      "*.log"
+    ]
+    telemetryConsent: "limited"
+  editor:
+    fontSize: 11
+    showIndentGuide: true
+    showInvisibles: true
+    softTabs: false
+    softWrap: true
+    tabType: "soft"
+  "exception-reporting":
+    userId: "6e0d614f-6e2c-fe2a-18c3-3aa432b0852d"
+  "linter-ui-default":
+    showPanel: true
+  "platformio-ide-terminal":
+    style:
+      theme: "silver-aerogel"
+    toggles:
+      autoClose: true
+  "tree-view":
+    alwaysOpenExisting: true
+    autoReveal: true
+  wakatime:
+    apikey: "Saved in your ~/.wakatime.cfg file"
+  welcome:
+    showOnStartup: false
+".css.source.stylus":
+  editor:
+    showIndentGuide: true
+    showInvisibles: true
+".litcoffee.source":
+  editor:
+    showIndentGuide: true
+    showInvisibles: true
+    softWrap: true

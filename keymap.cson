@@ -1,0 +1,8 @@
+'.editor:not(.mini)':
+  'alt-a': 'custom:indent-all'
+  'alt-down': 'emmet:decrement-number-by-1'
+  'alt-up': 'emmet:increment-number-by-1'
+  'shift-cmd-r': 'editor:auto-indent'
+  'f5': 'sort-lines:sort'
+  'shift-f5': 'sort-lines:reverse-sort'
+  'tab': 'emmet:expand-abbreviation-with-tab'
